@@ -53,10 +53,7 @@ Just enter any city, and Weatherly pulls in fresh data using the OpenWeatherMap 
 ---
 
 ## 📸 Screenshots
-
-> Add images in a `/screenshots` folder and embed them here:
-```md
-![weather app 2](https://github.com/user-attachments/assets/7bcc0272-74f3-4ff2-aaf6-34cddb70252c)
+![weather app 2](https://github.com/user-attachments/assets/324a0e60-88b9-4001-9bf5-aa4005afea61)
 
 ```
 
