@@ -1,0 +1,23 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #282c34;
+  color: white;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px;
+}
+
+h2 {
+  margin-top: 20px;
+}

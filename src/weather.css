@@ -1,0 +1,92 @@
+.weather-app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the top of the viewport */
+  }
+  
+  .weather-app input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 40px); /* Take full width minus padding */
+    max-width: 400px; /* Limit input width for better readability */
+  }
+  
+  .weather-app button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .weather-app button:hover {
+    background-color: #0056b3;
+  }
+  
+  .weather-app .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .weather-app .weather-info,
+  .weather-app .weather-wind,
+  .weather-app .weather-extra {
+    background: rgba(255, 255, 255, 0.05); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Blur effect */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    width: calc(100% - 40px); /* Take full width minus padding */
+    max-width: 600px; /* Limit maximum width for better readability */
+    margin-left: auto; /* Center the element horizontally */
+    margin-right: auto; /* Center the element horizontally */
+  }
+  
+  .weather-app .weather-info h2,
+  .weather-app .weather-wind h2,
+  .weather-app .weather-extra h2 {
+    margin-bottom: 10px;
+  }
+  
+  .weather-app .weather-info p,
+  .weather-app .weather-wind p,
+  .weather-app .weather-extra p {
+    margin: 5px 0;
+  }
+  
+  .weather-app .weather-wind,
+  .weather-app .weather-extra {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 40px); /* Take full width minus padding */
+    max-width: 600px; /* Limit maximum width for better readability */
+    margin-left: auto; /* Center the element horizontally */
+    margin-right: auto; /* Center the element horizontally */
+  }
+  
+  .weather-app .wind-info,
+  .weather-app .extra-info {
+    width: 48%; /* Adjust width to fit two elements in a row */
+    font-size: 0.8em; /* Smaller font size */
+  }
+  
+  .weather-app .wind-info:last-child,
+  .weather-app .extra-info:last-child {
+    margin-left: auto; /* Align the last item to the right */
+  }
+  
+  .weather-app .extra-info:last-child {
+    margin-right: 0; /* Remove right margin for the last item */
+  }
+  
