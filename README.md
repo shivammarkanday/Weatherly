@@ -27,6 +27,7 @@ Just enter any city, and Weatherly pulls in fresh data using the OpenWeatherMap 
 
 ## 🧠 Tech Stack
 
+- React
 - HTML5 + CSS3
 - JavaScript (Fetch API)
 - [OpenWeatherMap API](https://openweathermap.org/api)
@@ -51,26 +52,13 @@ Just enter any city, and Weatherly pulls in fresh data using the OpenWeatherMap 
 
 ---
 
-## 📂 Project Structure
-
-```
-weatherly/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
-
----
-
 ## 📸 Screenshots
 
 > Add images in a `/screenshots` folder and embed them here:
 ```md
-![Weatherly Demo](screenshots/demo.png)
-```
+![weather app 2](https://github.com/user-attachments/assets/7bcc0272-74f3-4ff2-aaf6-34cddb70252c)
 
----
+```
 
 ## 🙌 Credits
 
